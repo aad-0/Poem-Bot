@@ -1,7 +1,5 @@
 #!/bin/python3
 
-# vocab_page_content = bs(vocab_page.content, "html5lib")
-
 import requests
 import re
 import random
