@@ -12,11 +12,6 @@ from gtts import gTTS
 #print("Total score for {0} is {1}".format(name, score))
 from bs4 import BeautifulSoup as bs
 
-# headers
-headers = {
-    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
-}
-
 site = "https://www.antoloji.com"
 
 sair = "ali-lidar"#input("sair adi: ")
