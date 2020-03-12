@@ -71,7 +71,7 @@ getPoemList()
 
 lang = 'tr'
 poem = getPoem()
-speech = gTTS(text=poem, lang=lang, slow=True)
+speech = gTTS(text=poem, lang=lang, slow=False)
 speech.save('raw.mp3')
 print(poem)
 os.system("cvlc raw.mp3")
